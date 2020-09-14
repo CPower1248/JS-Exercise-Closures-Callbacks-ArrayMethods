@@ -42,6 +42,7 @@ Find the file `index.js` and complete the tasks until your tests are passing.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+- Closure defines within what scope variables are accessible 
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,8 +64,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+-Within the return function. Because that is where the function "reached out" for the name and newRoll values.
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+-The function would behave the same, only the value or newRoll would change.
 c. What is the lexical scope of `newRoll`? 
+-Only within the nested functions.
 
 ### Task 3 - Stretch Goals
 
@@ -104,6 +108,6 @@ addSix(21); // returns 27
 
 Follow these steps for completing your project.
 
-- [ ] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your Team Lead as a reviewer on the pull request
-- [ ] Your Team Lead will count the project as complete by merging the branch back into master
+- [x] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Add your Team Lead as a reviewer on the pull request
+- [x] Your Team Lead will count the project as complete by merging the branch back into master
